@@ -1,0 +1,370 @@
+/*---------- All ----------*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #C0BEB6;
+}
+
+/*---------- All Pages Header ----------*/
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #E7AF05;
+    border: 2px solid #344E68;
+    
+}
+
+.logo {
+    width: 6em;
+    margin: 0.5em 0 0 4em;
+}
+
+.menu h1 {
+    text-decoration: underline;
+    color: #344E68;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-bottom: 0.1em;
+}
+
+.menu h2 {
+    text-decoration: none;
+    color: #344E68;
+    font-weight: bold;
+    font-size: 1em;
+    margin-left: 1.3em;
+    margin-bottom: 0.5em;
+}
+.menu {
+    background: linear-gradient(90deg, #E7AF05, #e7c505, #E7AF05);
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    display: inline-block;
+    top: 4.3em;
+    right: 3em;
+}
+
+nav li {
+    display: inline;
+    box-sizing: border-box;
+    padding: 0.6em 0.5em;
+    border: 2px solid #344E68;
+    border-radius: 0.6em;
+    background-color: #344E68;
+    margin-left: 0.3em;
+    transition: 1s;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #C0BEB6;
+    font-weight: bold;
+    font-size: 1.4em;
+    transition: 1s;
+}
+
+nav li:hover {
+    background-color: #C0BEB6;
+    box-shadow: 5px 5px 20px #000;
+    border: 2px solid #C0BEB6;
+}
+nav li:hover a{
+    
+    color: #344E68;
+}
+
+.home-img {
+    width: 100%;
+}
+
+main {
+    width: 940px;
+    margin:0 auto;
+}
+
+
+/* All Pages Footer */
+
+footer {
+    text-align: center;
+    background: #344E68;
+    padding: 40px 0;
+}
+
+footer img {
+    width: 3em;
+    margin-bottom: 2em;
+}
+
+footer p {
+    color: #fcfcfc;
+    font-size: 0.8em;
+}
+
+.p1 {
+    padding-bottom: 1em;
+}
+
+.copyright {
+    color: #fcfcfc;
+    font-size: 0.7em;
+    margin: 20px 0 0;
+}
+
+/*---------- Home page ----------*/
+
+.titulo-principal {
+    text-align: center;
+    color: #344E68;
+    font-weight: bold;
+    margin: 1.5em 0;
+    font-size: 2em;
+}
+
+.principal-home p, .mapa p, .servicos p, .servicos-p {
+    text-align: center;
+    color: #344E68;
+    font-size: 1em;
+    line-height: 1.5em;
+
+}
+
+.principal-home strong, .servicos strong {
+    font-weight: bold;
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 2em auto;
+
+}
+
+.consulte {
+    text-align: center;
+}
+
+.consulte img {
+    width: 20%;
+    margin-bottom: 1em;
+}
+
+.botao {
+    padding: 0.2em 0.5em;
+    border: 2px solid #344E68;
+    border-radius: 0.4em;
+    background-color: #344E68;
+    margin: 0 1em 2em;
+    transition: 1s;
+    color: #C0BEB6;
+    left: 10em;
+    font-size: 2em;
+}
+
+.botao:hover {
+    background-color: #C0BEB6;
+    box-shadow: 5px 5px 20px #000;
+    border: 2px solid #C0BEB6;
+    color: #344E68;
+    cursor: pointer;
+}
+
+/*---------- Sobre Nós ----------*/
+
+.sobre p {
+    line-height: 2.6em;
+    font-size: 1.2em;
+    margin-bottom: 3em;
+}
+
+/*---------- Serviços ----------*/
+
+.titulo-sec{
+    color: #344E68;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+ .p-servicos {
+    text-align: center;
+    color: #344E68;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.servicos li {
+    background-color: #E7AF05;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 3em 0.5em;
+    vertical-align: top;
+    padding: 30px 0;
+    box-sizing: border-box;
+    border: 2px solid #344E68;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 1s all;
+}
+
+.servicos li:hover {
+    background-color: #C0BEB6;
+    box-shadow: 5px 5px 15px #000, -5px 5px 15px #000;
+}
+
+.servicos li:hover .button-servicos{
+    background-color: #344E68;
+    color: #C0BEB6;
+}
+.servicos h2 {
+    font-size: 1.4em;
+    color: #344E68;
+    font-weight: bold;
+    margin-bottom: 1em; 
+}
+
+#servicos-lista-2 {
+    width: 150%;
+}
+
+.servicos-lista p, #servicos-lista-2 p {
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.servicos-lista .p-correction {
+    margin-bottom: 2.5em;
+}
+
+.servicos .button-servicos {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #344E68;
+    border: 1px solid #344E68;
+    border-radius: 10px;
+    padding: 0.5em;
+    background-color: #C0BEB6;
+    transition: 1s all;
+}
+
+.button-servicos:hover {
+    font-size: 1.4em;
+}
+
+/*---------- contato ----------*/
+
+form {
+    margin: 4em;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+    color: #344E68;
+}
+
+.input-padrao {
+    display: block;
+    margin-bottom: 1em;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: red;
+    transform: scale(1.2);
+}
+
+
+
+/*---------- mobile device ----------*/
+@media screen and (max-width: 480px) {
+
+    .menu, main {
+        width: auto;
+    }
+
+    .mapa-conteudo {
+        width: auto;
+    }
+
+    .logo {
+        width: 3em;
+        margin: 1em 0;
+        float: left;
+    }
+
+    .menu h1, .menu h2 {
+        display:inline-block;
+        clear: left;
+        font-size: 0.85em;
+        margin-left: 0;
+        margin-left: 3.5em;
+    }
+
+    nav {
+        top: 3em;
+        right: 3em;
+    }
+
+    nav li {
+        padding: 0 0.2em;
+        border-radius: 4px;
+    }
+
+    nav a {
+        font-size: 0.6em;
+    }
+
+    .sobre p {
+        line-height: 1.5em;
+
+    }
+
+    .servicos-lista ul{
+        margin: 1em auto 1em auto;
+    }
+
+    .servicos li {
+        width: 45%;
+        height: 25em;
+        margin: 1em 0 1em 0.5em;
+        
+    }
+
+    #servicos-lista-2 {
+        width: 100%;
+    }
+
+    .enviar {
+        font-size: 0.6em;
+    }
+    
+    
+    
+}
